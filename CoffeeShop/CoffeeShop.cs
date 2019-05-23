@@ -16,39 +16,48 @@ namespace CoffeeShop
         {
             InitializeComponent();
         }
-
-        string customerName;
-        string contactNo ;
-        string address;
-        string Order ;
-        int total;
-        int Quantity ;
+        int index = 0;
+        string [] customerName = new string [5];
+        string [] contactNo = new string [5] ;
+        string [] address = new string [5];
+        string [] Order = new string [5] ;
+        int [] total = new int [5];
+        int [] Quantity = new int [5] ;
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            customerName = customerNameTextBox.Text;
-             contactNo = contactNoTextBox.Text;
-             address = AddressTextBox.Text;
-             Order = orderNameComboBox.SelectedItem.ToString();
+            customerName[index] = customerNameTextBox.Text;
+             contactNo[index] = contactNoTextBox.Text;
+             address[index] = AddressTextBox.Text;
+             Order[index] = orderNameComboBox.SelectedItem.ToString();
+             Quantity[index] = Convert.ToInt32(CoffeeQuantity.Text);
             
-            int Quantity = Convert.ToInt32(CoffeeQuantity.Text);
-            if (Order == "Black")
+            string message = " ";
+            
+            if (Order[index] == "Black")
             {
-                total = 120 * Quantity;
+                total[index] = 120 * Quantity[index];
             }
-            else if (Order == "Cold")
+            else if (Order[index] == "Cold")
             {
-                total = 100 * Quantity;
+                total[index] = 100 * Quantity[index];
             }
-            else if (Order == "Hot")
+            else if (Order[index] == "Hot")
             {
-                total = 90 * Quantity;
+                total[index] = 90 * Quantity[index];
             }
-            else if (Order == "Regular")
+            else if (Order[index] == "Regular")
             {
-                total = 80 * Quantity;
+                total[index] = 80 * Quantity[index];
             }
-            orderOutput.Text = ("Customer Name: " + customerName + "\n Contact No: " + contactNo + "\n Address: " + address + "\n Order: " + Order + "\n Quantity:" + Quantity + "\n Total Price: " + total).ToString();
+            index++;
+            for (int index = 0; index < customerName.Length; index++)
+            {
+                if (Quantity[index] !=0)
+                    message =message + ("Customer Name: " + customerName[index] + "\n Contact No: " + contactNo[index] + "\n Address: " + address[index] + "\n Order: " + Order[index] + "\n Quantity:" + Quantity[index] + "\n Total Price: " + total[index]+"\n----------------\n").ToString();
+
+            }
+        orderOutput.Text = message;    
         }
             
     }

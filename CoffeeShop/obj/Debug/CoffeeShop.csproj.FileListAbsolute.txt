@@ -8,3 +8,13 @@ D:\BITM Assignment\CoffeeShop\obj\Debug\CoffeeShop.csproj.GenerateResource.Cache
 D:\BITM Assignment\CoffeeShop\obj\Debug\CoffeeShop.csproj.CoreCompileInputs.cache
 D:\BITM Assignment\CoffeeShop\obj\Debug\CoffeeShop.exe
 D:\BITM Assignment\CoffeeShop\obj\Debug\CoffeeShop.pdb
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\bin\Debug\CoffeeShop.exe.config
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\bin\Debug\CoffeeShop.exe
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\bin\Debug\CoffeeShop.pdb
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.csprojResolveAssemblyReference.cache
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.CoffeeShop.resources
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.Properties.Resources.resources
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.csproj.GenerateResource.Cache
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.csproj.CoreCompileInputs.cache
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.exe
+D:\BITM Assignment\Assignment1\.Net-BITM-Assignments\.Net-BITM-Assignments\CoffeeShop\obj\Debug\CoffeeShop.pdb
