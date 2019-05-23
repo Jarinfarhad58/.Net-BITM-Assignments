@@ -1,0 +1,7 @@
+D:\BITM Assignment\Assignment1\obj\Debug\Assignment1.csprojResolveAssemblyReference.cache
+D:\BITM Assignment\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+D:\BITM Assignment\Assignment1\bin\Debug\Assignment1.exe.config
+D:\BITM Assignment\Assignment1\bin\Debug\Assignment1.exe
+D:\BITM Assignment\Assignment1\bin\Debug\Assignment1.pdb
+D:\BITM Assignment\Assignment1\obj\Debug\Assignment1.exe
+D:\BITM Assignment\Assignment1\obj\Debug\Assignment1.pdb
